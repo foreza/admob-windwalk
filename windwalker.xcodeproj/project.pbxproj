@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922FFEF8214329AE00AED769 /* AerServCustomEventInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 922FFEEC214329AD00AED769 /* AerServCustomEventInterstitial.m */; };
+		922FFEF9214329AE00AED769 /* AerServCustomEventRewardedInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 922FFEED214329AD00AED769 /* AerServCustomEventRewardedInterstitial.m */; };
+		922FFEFA214329AE00AED769 /* AerServExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 922FFEEE214329AD00AED769 /* AerServExtras.m */; };
+		922FFEFB214329AE00AED769 /* AerServCustomEventBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 922FFEEF214329AD00AED769 /* AerServCustomEventBanner.m */; };
+		922FFEFC214329AE00AED769 /* AerServUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 922FFEF4214329AD00AED769 /* AerServUtils.m */; };
+		922FFEFD214329AE00AED769 /* AerServExceptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 922FFEF5214329AD00AED769 /* AerServExceptions.m */; };
+		922FFF01214329D100AED769 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 922FFF00214329D100AED769 /* libxml2.2.tbd */; };
+		922FFF03214329D600AED769 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922FFF02214329D500AED769 /* WebKit.framework */; };
+		922FFF0921432C5100AED769 /* AerServSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922FFF0821432C5100AED769 /* AerServSDK.framework */; };
 		929C327720DD679000A3A9FF /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929C327620DD679000A3A9FF /* GoogleMobileAds.framework */; };
 		92D6A56E20DD659A003AB5CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D6A56D20DD659A003AB5CB /* AppDelegate.m */; };
 		92D6A57120DD659A003AB5CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D6A57020DD659A003AB5CB /* ViewController.m */; };
@@ -19,6 +28,21 @@
 /* Begin PBXFileReference section */
 		45AC5C12FAA0F0F666C74DB2 /* Pods-windwalker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-windwalker.release.xcconfig"; path = "Pods/Target Support Files/Pods-windwalker/Pods-windwalker.release.xcconfig"; sourceTree = "<group>"; };
 		6B7E8484F80AB3FE23074123 /* Pods-windwalker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-windwalker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-windwalker/Pods-windwalker.debug.xcconfig"; sourceTree = "<group>"; };
+		922FFEEC214329AD00AED769 /* AerServCustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomEventInterstitial.m; sourceTree = "<group>"; };
+		922FFEED214329AD00AED769 /* AerServCustomEventRewardedInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomEventRewardedInterstitial.m; sourceTree = "<group>"; };
+		922FFEEE214329AD00AED769 /* AerServExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServExtras.m; sourceTree = "<group>"; };
+		922FFEEF214329AD00AED769 /* AerServCustomEventBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomEventBanner.m; sourceTree = "<group>"; };
+		922FFEF0214329AD00AED769 /* AerServCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomEventBanner.h; sourceTree = "<group>"; };
+		922FFEF1214329AD00AED769 /* AerServUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServUtils.h; sourceTree = "<group>"; };
+		922FFEF2214329AD00AED769 /* AerServExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServExceptions.h; sourceTree = "<group>"; };
+		922FFEF3214329AD00AED769 /* AerServCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomEventInterstitial.h; sourceTree = "<group>"; };
+		922FFEF4214329AD00AED769 /* AerServUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServUtils.m; sourceTree = "<group>"; };
+		922FFEF5214329AD00AED769 /* AerServExceptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServExceptions.m; sourceTree = "<group>"; };
+		922FFEF6214329AE00AED769 /* AerServExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServExtras.h; sourceTree = "<group>"; };
+		922FFEF7214329AE00AED769 /* AerServCustomEventRewardedInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomEventRewardedInterstitial.h; sourceTree = "<group>"; };
+		922FFF00214329D100AED769 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		922FFF02214329D500AED769 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		922FFF0821432C5100AED769 /* AerServSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AerServSDK.framework; sourceTree = "<group>"; };
 		929C327620DD679000A3A9FF /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		92D6A56920DD6599003AB5CB /* windwalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windwalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D6A56C20DD6599003AB5CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922FFF03214329D600AED769 /* WebKit.framework in Frameworks */,
+				922FFF01214329D100AED769 /* libxml2.2.tbd in Frameworks */,
+				922FFF0921432C5100AED769 /* AerServSDK.framework in Frameworks */,
 				929C327720DD679000A3A9FF /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +83,9 @@
 		6E551060B8A830087B1ED5C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				922FFF0821432C5100AED769 /* AerServSDK.framework */,
+				922FFF02214329D500AED769 /* WebKit.framework */,
+				922FFF00214329D100AED769 /* libxml2.2.tbd */,
 				929C327620DD679000A3A9FF /* GoogleMobileAds.framework */,
 			);
 			name = Frameworks;
@@ -82,6 +112,18 @@
 		92D6A56B20DD6599003AB5CB /* windwalker */ = {
 			isa = PBXGroup;
 			children = (
+				922FFEF0214329AD00AED769 /* AerServCustomEventBanner.h */,
+				922FFEEF214329AD00AED769 /* AerServCustomEventBanner.m */,
+				922FFEF3214329AD00AED769 /* AerServCustomEventInterstitial.h */,
+				922FFEEC214329AD00AED769 /* AerServCustomEventInterstitial.m */,
+				922FFEF7214329AE00AED769 /* AerServCustomEventRewardedInterstitial.h */,
+				922FFEED214329AD00AED769 /* AerServCustomEventRewardedInterstitial.m */,
+				922FFEF2214329AD00AED769 /* AerServExceptions.h */,
+				922FFEF5214329AD00AED769 /* AerServExceptions.m */,
+				922FFEF6214329AE00AED769 /* AerServExtras.h */,
+				922FFEEE214329AD00AED769 /* AerServExtras.m */,
+				922FFEF1214329AD00AED769 /* AerServUtils.h */,
+				922FFEF4214329AD00AED769 /* AerServUtils.m */,
 				92D6A56C20DD6599003AB5CB /* AppDelegate.h */,
 				92D6A56D20DD659A003AB5CB /* AppDelegate.m */,
 				92D6A56F20DD659A003AB5CB /* ViewController.h */,
@@ -187,9 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922FFEF9214329AE00AED769 /* AerServCustomEventRewardedInterstitial.m in Sources */,
+				922FFEFB214329AE00AED769 /* AerServCustomEventBanner.m in Sources */,
+				922FFEFC214329AE00AED769 /* AerServUtils.m in Sources */,
+				922FFEF8214329AE00AED769 /* AerServCustomEventInterstitial.m in Sources */,
 				92D6A57120DD659A003AB5CB /* ViewController.m in Sources */,
+				922FFEFA214329AE00AED769 /* AerServExtras.m in Sources */,
 				92D6A57C20DD659A003AB5CB /* main.m in Sources */,
 				92D6A56E20DD659A003AB5CB /* AppDelegate.m in Sources */,
+				922FFEFD214329AE00AED769 /* AerServExceptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +383,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/windwalker",
 				);
 				INFOPLIST_FILE = windwalker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -358,6 +408,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/windwalker",
 				);
 				INFOPLIST_FILE = windwalker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

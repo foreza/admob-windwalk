@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <AerServSDK/AerServSDK.h>
 @import GoogleMobileAds;
 
 
@@ -22,7 +23,14 @@
     
     // Initialize Google Mobile Ads SDK
     // Sample AdMob app ID: ca-app-pub-3940256099942544~1458002511
-    [GADMobileAds configureWithApplicationID:@"ca-app-pub-3940256099942544~1458002511"];
+     [GADMobileAds configureWithApplicationID:@"ca-app-pub-2877795938017911~2549150183"];
+    
+    
+//    [GADMobileAds configureWithApplicationID:@"ca-app-pub-5467746033313132~5484369315"];
+
+    
+    [AerServSDK initializeWithAppID:@"380000"];
+    // [AerServSDK setGDPRWithUserConsent:YES];
     
     return YES;
 }
